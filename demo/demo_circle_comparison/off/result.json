@@ -1,0 +1,59 @@
+{
+  "image": "demo_data\\images\\04_middle.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "radius": 0.4166666666666667,
+    "start_angle": 225.0,
+    "end_angle": 315.0,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "unit": "MPa"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 160.0,
+  "original_size": [
+    720,
+    720
+  ],
+  "processed_size": [
+    720,
+    720
+  ],
+  "auto_circle": false,
+  "angle_deg": 89.625,
+  "reading": 0.8022222222222223,
+  "unit": "MPa",
+  "arc_delta_deg": 135.375,
+  "ray_support": 0.9333333333333333,
+  "needle_extent": 0.7272402234636872,
+  "selected_hough_line": [
+    365,
+    321,
+    365,
+    121
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ]
+}

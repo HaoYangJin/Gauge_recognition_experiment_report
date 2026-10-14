@@ -1,0 +1,8 @@
+{
+  "image": "experiments\\experiments_image\\image\\gauge_nonlinear.png",
+  "status": "failed",
+  "error": "检测圆偏离标定圆心过远，请人工复核",
+  "filename": "gauge_nonlinear.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_nonlinear.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_nonlinear.params.json"
+}

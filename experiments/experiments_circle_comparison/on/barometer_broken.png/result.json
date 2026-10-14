@@ -1,0 +1,47 @@
+{
+  "image": "experiments\\experiments_image\\image\\barometer_broken.png",
+  "status": "failed",
+  "calibration": {
+    "center_x": 0.4806000061035156,
+    "center_y": 0.468,
+    "radius": 0.4696533203125,
+    "start_angle": 227.33364642376358,
+    "end_angle": 318.5414758640804,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 6.0,
+    "unit": "bar"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "light",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 134.0,
+  "original_size": [
+    1200,
+    900
+  ],
+  "processed_size": [
+    1000,
+    750
+  ],
+  "auto_circle": true,
+  "error": "指针方向的前景支持不足，拒绝输出读数",
+  "filename": "barometer_broken.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_broken.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_broken.params.json"
+}

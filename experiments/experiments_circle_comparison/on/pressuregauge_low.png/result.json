@@ -1,0 +1,68 @@
+{
+  "image": "experiments\\experiments_image\\image\\pressuregauge_low.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.5237500190734863,
+    "center_y": 0.48875001271565754,
+    "radius": 0.33391666412353516,
+    "start_angle": 218.4474453291707,
+    "end_angle": 322.0542517333647,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "unit": "A"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "light",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 147.0,
+  "original_size": [
+    480,
+    480
+  ],
+  "processed_size": [
+    480,
+    480
+  ],
+  "auto_circle": true,
+  "angle_deg": 198.16125981682825,
+  "reading": 31.64855545162848,
+  "unit": "A",
+  "arc_delta_deg": 20.286185512342456,
+  "ray_support": 0.9222222222222223,
+  "needle_extent": 0.7705027932960894,
+  "selected_hough_line": [
+    131,
+    279,
+    224,
+    243
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。",
+    "霍夫圆结果应人工复核；自动圆定位不识别刻度值或纠正相机旋转。"
+  ],
+  "manual_value": 35.0,
+  "signed_error": -3.3514445483715214,
+  "absolute_error": 3.3514445483715214,
+  "relative_error_pct": 9.575555852490062,
+  "full_scale_error_pct": 0.8378611370928802,
+  "filename": "pressuregauge_low.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\pressuregauge_low.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\pressuregauge_low.params.json"
+}

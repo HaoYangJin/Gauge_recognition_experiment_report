@@ -1,0 +1,11 @@
+﻿filename,calibration_file,params_file,status,reading,unit,angle_deg,ray_support,manual_value,signed_error,absolute_error,relative_error_pct,full_scale_error_pct,error
+ammeter_low.png,experiments_image\calibration.json\ammeter_low.json,,ok,7.980398731731383,mV,176.5686924665742,1.0,,,,,,
+barometer_broken.png,experiments_image\calibration.json\barometer_broken.json,,failed,,,,,,,,,,候选直线均未穿过圆心附近，请重新标定圆心
+barometer_glass.png,experiments_image\calibration.json\barometer_glass.json,,failed,,,,,,,,,,存在强度相近的多个指针方向，请人工复核
+barometer_low.png,experiments_image\calibration.json\barometer_low.json,,ok,0.0,bar,219.1376885749426,1.0,,,,,,
+barometer_mid.png,experiments_image\calibration.json\barometer_mid.json,,ok,1.539367689130155,bar,116.30878159031296,1.0,,,,,,
+cargauge.png,experiments_image\calibration.json\cargauge.json,,failed,,,,,,,,,,存在强度相近的多个指针方向，请人工复核
+gauge_nonlinear.png,experiments_image\calibration.json\gauge_nonlinear.json,,ok,617.3749968276626,A,84.78032953826977,0.9944444444444445,,,,,,
+gauge_squad_red.png,experiments_image\calibration.json\gauge_squad_red.json,,failed,,,,,,,,,,存在强度相近的多个指针方向，请人工复核
+pressuregauge_low.png,experiments_image\calibration.json\pressuregauge_low.json,,ok,24.048575974304004,A,203.03271734046277,0.9944444444444445,,,,,,
+speedgauge.png,experiments_image\calibration.json\speedgauge.json,,failed,,,,,,,,,,指针角度位于标定量程之外，请复核量程方向或识别结果

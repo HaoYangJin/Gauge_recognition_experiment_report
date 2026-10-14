@@ -1,0 +1,11 @@
+﻿filename,manual_value,source
+01_zero.png,0,synthetic_ground_truth_not_manual
+02_low.png,0.2,synthetic_ground_truth_not_manual
+03_midlow.png,0.64,synthetic_ground_truth_not_manual
+04_middle.png,0.8,synthetic_ground_truth_not_manual
+05_high.png,1.2,synthetic_ground_truth_not_manual
+06_full.png,1.6,synthetic_ground_truth_not_manual
+07_noise.png,1.12,synthetic_ground_truth_not_manual
+08_blur.png,0.32,synthetic_ground_truth_not_manual
+09_gradient.png,0.96,synthetic_ground_truth_not_manual
+10_wrap.png,1.44,synthetic_ground_truth_not_manual

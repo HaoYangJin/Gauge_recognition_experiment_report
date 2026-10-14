@@ -1,0 +1,18 @@
+{
+  "max_size": 1000,
+  "blur_kernel": 5,
+  "threshold_mode": "otsu",
+  "fixed_threshold": 110,
+  "polarity": "light",
+  "adaptive_block": 31,
+  "adaptive_c": 7.0,
+  "close_kernel": 3,
+  "open_kernel": 1,
+  "inner_ratio": 0.13,
+  "outer_ratio": 0.8,
+  "center_tolerance": 0.1,
+  "min_line_ratio": 0.24,
+  "max_gap_ratio": 0.06,
+  "min_ray_support": 0.45,
+  "endpoint_tolerance": 2.0
+}

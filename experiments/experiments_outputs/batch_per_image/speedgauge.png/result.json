@@ -1,0 +1,47 @@
+{
+  "image": "experiments_image\\image\\speedgauge.png",
+  "status": "failed",
+  "calibration": {
+    "center_x": 0.6180555555555556,
+    "center_y": 0.5400624067290735,
+    "radius": 0.4383848304119392,
+    "start_angle": 226.87787744728533,
+    "end_angle": 314.8700778201576,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 8.0,
+    "unit": "2.8"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 60.0,
+  "original_size": [
+    2048,
+    1365
+  ],
+  "processed_size": [
+    1000,
+    667
+  ],
+  "auto_circle": false,
+  "error": "指针角度位于标定量程之外，请复核量程方向或识别结果",
+  "filename": "speedgauge.png",
+  "calibration_file": "experiments_image\\calibration.json\\speedgauge.json",
+  "params_file": null
+}

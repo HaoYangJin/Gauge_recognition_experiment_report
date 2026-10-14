@@ -1,0 +1,8 @@
+{
+  "image": "experiments\\experiments_image\\image\\ammeter_low.png",
+  "status": "failed",
+  "error": "检测圆偏离标定圆心过远，请人工复核",
+  "filename": "ammeter_low.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\ammeter_low.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\ammeter_low.params.json"
+}

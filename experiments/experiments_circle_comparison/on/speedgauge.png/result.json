@@ -1,0 +1,8 @@
+{
+  "image": "experiments\\experiments_image\\image\\speedgauge.png",
+  "status": "failed",
+  "error": "未找到合适的表盘圆；请使用四点手动标定",
+  "filename": "speedgauge.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\speedgauge.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\speedgauge.params.json"
+}

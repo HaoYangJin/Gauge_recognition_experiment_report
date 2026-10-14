@@ -1,0 +1,47 @@
+{
+  "image": "experiments_image\\image\\cargauge.png",
+  "status": "failed",
+  "calibration": {
+    "center_x": 0.48560436147820984,
+    "center_y": 0.5178082191780822,
+    "radius": 0.39014075487364575,
+    "start_angle": 208.81079374297306,
+    "end_angle": 334.03593146176996,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "unit": "km/h"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 134.0,
+  "original_size": [
+    794,
+    823
+  ],
+  "processed_size": [
+    794,
+    823
+  ],
+  "auto_circle": false,
+  "error": "存在强度相近的多个指针方向，请人工复核",
+  "filename": "cargauge.png",
+  "calibration_file": "experiments_image\\calibration.json\\cargauge.json",
+  "params_file": null
+}

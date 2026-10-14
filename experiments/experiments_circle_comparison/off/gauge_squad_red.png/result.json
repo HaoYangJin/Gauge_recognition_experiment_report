@@ -1,0 +1,47 @@
+{
+  "image": "experiments\\experiments_image\\image\\gauge_squad_red.png",
+  "status": "failed",
+  "calibration": {
+    "center_x": 0.4943589041095891,
+    "center_y": 0.5164383561643836,
+    "radius": 0.3855549964433311,
+    "start_angle": 214.939310204677,
+    "end_angle": 327.81736823279516,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 225.0,
+    "unit": "A"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "light",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 106.0,
+  "original_size": [
+    500,
+    489
+  ],
+  "processed_size": [
+    500,
+    489
+  ],
+  "auto_circle": false,
+  "error": "存在强度相近的多个指针方向，请人工复核",
+  "filename": "gauge_squad_red.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_squad_red.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_squad_red.params.json"
+}

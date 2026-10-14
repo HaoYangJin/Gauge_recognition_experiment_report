@@ -1,0 +1,62 @@
+{
+  "image": "experiments_image\\image\\ammeter_low.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.7123287671232877,
+    "center_y": 0.7136986301369863,
+    "radius": 0.5492194088811521,
+    "start_angle": 180.14288194698733,
+    "end_angle": 90.56867392648903,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "unit": "mV"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 139.0,
+  "original_size": [
+    2067,
+    2067
+  ],
+  "processed_size": [
+    1000,
+    1000
+  ],
+  "auto_circle": false,
+  "angle_deg": 176.5686924665742,
+  "reading": 7.980398731731383,
+  "unit": "mV",
+  "arc_delta_deg": 3.574189480413139,
+  "ray_support": 1.0,
+  "needle_extent": 0.768,
+  "selected_hough_line": [
+    278,
+    704,
+    629,
+    721
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ],
+  "filename": "ammeter_low.png",
+  "calibration_file": "experiments_image\\calibration.json\\ammeter_low.json",
+  "params_file": null
+}

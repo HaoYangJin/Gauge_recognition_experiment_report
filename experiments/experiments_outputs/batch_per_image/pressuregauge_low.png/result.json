@@ -1,0 +1,62 @@
+{
+  "image": "experiments_image\\image\\pressuregauge_low.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.5191780821917809,
+    "center_y": 0.5109589041095891,
+    "radius": 0.3070602259503305,
+    "start_angle": 218.4474453291707,
+    "end_angle": 322.0542517333647,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "unit": "A"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 147.0,
+  "original_size": [
+    480,
+    480
+  ],
+  "processed_size": [
+    480,
+    480
+  ],
+  "auto_circle": false,
+  "angle_deg": 203.03271734046277,
+  "reading": 24.048575974304004,
+  "unit": "A",
+  "arc_delta_deg": 15.414727988707938,
+  "ray_support": 0.9944444444444445,
+  "needle_extent": 0.7646033519553073,
+  "selected_hough_line": [
+    136,
+    277,
+    211,
+    248
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ],
+  "filename": "pressuregauge_low.png",
+  "calibration_file": "experiments_image\\calibration.json\\pressuregauge_low.json",
+  "params_file": null
+}

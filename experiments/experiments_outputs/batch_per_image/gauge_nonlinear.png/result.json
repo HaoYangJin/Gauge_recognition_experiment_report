@@ -1,0 +1,62 @@
+{
+  "image": "experiments_image\\image\\gauge_nonlinear.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.4941418002902553,
+    "center_y": 0.6191780821917808,
+    "radius": 0.44610078726984964,
+    "start_angle": 135.25578303073928,
+    "end_angle": 46.95695322392697,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 1080.0,
+    "unit": "A"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 137.0,
+  "original_size": [
+    1161,
+    1200
+  ],
+  "processed_size": [
+    968,
+    1000
+  ],
+  "auto_circle": false,
+  "angle_deg": 84.78032953826977,
+  "reading": 617.3749968276626,
+  "unit": "A",
+  "arc_delta_deg": 50.47545349246951,
+  "ray_support": 0.9944444444444445,
+  "needle_extent": 0.7681787709497206,
+  "selected_hough_line": [
+    484,
+    510,
+    506,
+    276
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ],
+  "filename": "gauge_nonlinear.png",
+  "calibration_file": "experiments_image\\calibration.json\\gauge_nonlinear.json",
+  "params_file": null
+}

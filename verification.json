@@ -1,0 +1,17 @@
+{
+  "evidence_type": "synthetic_only_not_real_photo_accuracy",
+  "seed": 20261012,
+  "demo_count": 10,
+  "successful": 10,
+  "mean_absolute_error": 0.0014284571574131766,
+  "max_full_scale_error_pct": 0.24193309607586228,
+  "boundary_tests": 15,
+  "boundary_failures": 0,
+  "environment": {
+    "python": "3.12.10",
+    "opencv": "4.12.0",
+    "numpy": "2.2.6",
+    "pillow": "12.3.0",
+    "matplotlib": "3.11.2"
+  }
+}

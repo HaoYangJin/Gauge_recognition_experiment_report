@@ -1,0 +1,64 @@
+{
+  "image": "C:\\Users\\JInhAoYang\\Desktop\\仪表识别实验\\experiments\\experiments_image\\image\\barometer_mid.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.5023148148148148,
+    "center_y": 0.49967233859851307,
+    "radius": 0.37595573158758444,
+    "start_angle": 216.7752721670316,
+    "end_angle": 315.7161599454704,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 4.0,
+    "unit": "bar"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 92.0,
+  "original_size": [
+    2048,
+    1639
+  ],
+  "processed_size": [
+    1000,
+    800
+  ],
+  "auto_circle": false,
+  "angle_deg": 116.30878159031296,
+  "reading": 1.539367689130155,
+  "unit": "bar",
+  "arc_delta_deg": 100.46649057671864,
+  "ray_support": 1.0,
+  "needle_extent": 0.768,
+  "selected_hough_line": [
+    391,
+    188,
+    459,
+    336
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ],
+  "manual_value": 1.6,
+  "signed_error": -0.060632310869844996,
+  "absolute_error": 0.060632310869844996,
+  "relative_error_pct": 3.7895194293653125,
+  "full_scale_error_pct": 1.515807771746125
+}

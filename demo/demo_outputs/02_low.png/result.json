@@ -1,0 +1,65 @@
+{
+  "image": "C:\\Users\\JInhAoYang\\Desktop\\仪表识别实验\\demo\\demo_image\\images\\02_low.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "radius": 0.4166666666666667,
+    "start_angle": 225.0,
+    "end_angle": 315.0,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "unit": "MPa"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "unit": "MPa",
+  "original_size": [
+    720,
+    720
+  ],
+  "auto_circle": false,
+  "manual_value": 0.2,
+  "otsu_or_fixed_threshold": 160.0,
+  "processed_size": [
+    720,
+    720
+  ],
+  "angle_deg": 191.90321935940483,
+  "reading": 0.19612907046278621,
+  "arc_delta_deg": 33.09678064059517,
+  "ray_support": 0.9222222222222223,
+  "needle_extent": 0.7204469273743016,
+  "selected_hough_line": [
+    152,
+    406,
+    322,
+    371
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ],
+  "signed_error": -0.0038709295372137964,
+  "absolute_error": 0.0038709295372137964,
+  "relative_error_pct": 1.9354647686068982,
+  "full_scale_error_pct": 0.24193309607586228,
+  "filename": "02_low.png"
+}

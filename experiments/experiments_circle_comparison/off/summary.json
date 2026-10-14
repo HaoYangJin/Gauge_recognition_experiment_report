@@ -1,0 +1,593 @@
+[
+  {
+    "image": "experiments\\experiments_image\\image\\ammeter_low.png",
+    "status": "ok",
+    "calibration": {
+      "center_x": 0.7123287671232877,
+      "center_y": 0.7136986301369863,
+      "radius": 0.5492194088811521,
+      "start_angle": 180.14288194698733,
+      "end_angle": 90.56867392648903,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 200.0,
+      "unit": "mV"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "dark",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 139.0,
+    "original_size": [
+      2067,
+      2067
+    ],
+    "processed_size": [
+      1000,
+      1000
+    ],
+    "auto_circle": false,
+    "angle_deg": 176.5686924665742,
+    "reading": 7.980398731731383,
+    "unit": "mV",
+    "arc_delta_deg": 3.574189480413139,
+    "ray_support": 1.0,
+    "needle_extent": 0.768,
+    "selected_hough_line": [
+      278,
+      704,
+      629,
+      721
+    ],
+    "endpoint_snapped": false,
+    "warnings": [
+      "仅依据图像启发式评分；ray_support 不是正确概率。"
+    ],
+    "manual_value": 7.0,
+    "signed_error": 0.9803987317313831,
+    "absolute_error": 0.9803987317313831,
+    "relative_error_pct": 14.00569616759119,
+    "full_scale_error_pct": 0.49019936586569157,
+    "filename": "ammeter_low.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\ammeter_low.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\ammeter_low.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\barometer_broken.png",
+    "status": "failed",
+    "calibration": {
+      "center_x": 0.49768518518518523,
+      "center_y": 0.48302469135802467,
+      "radius": 0.36081091774792895,
+      "start_angle": 227.33364642376358,
+      "end_angle": 318.5414758640804,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 6.0,
+      "unit": "bar"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "light",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 134.0,
+    "original_size": [
+      1200,
+      900
+    ],
+    "processed_size": [
+      1000,
+      750
+    ],
+    "auto_circle": false,
+    "error": "未检测到足够长的直线；检查阈值、指针极性和 ROI",
+    "filename": "barometer_broken.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_broken.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_broken.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\barometer_glass.png",
+    "status": "failed",
+    "calibration": {
+      "center_x": 0.49726027397260275,
+      "center_y": 0.5027397260273972,
+      "radius": 0.3403909754063879,
+      "start_angle": 230.3709946955357,
+      "end_angle": 309.7187593715549,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 400.0,
+      "unit": "psi"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "dark",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 152.0,
+    "original_size": [
+      480,
+      480
+    ],
+    "processed_size": [
+      480,
+      480
+    ],
+    "auto_circle": false,
+    "error": "存在强度相近的多个指针方向，请人工复核",
+    "filename": "barometer_glass.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_glass.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_glass.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\barometer_low.png",
+    "status": "ok",
+    "calibration": {
+      "center_x": 0.49832026875699886,
+      "center_y": 0.5013698630136986,
+      "radius": 0.3886574415447109,
+      "start_angle": 218.6598082540901,
+      "end_angle": 315.9951119815908,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 1.0,
+      "unit": "bar"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "dark",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 158.0,
+    "original_size": [
+      893,
+      890
+    ],
+    "processed_size": [
+      893,
+      890
+    ],
+    "auto_circle": false,
+    "angle_deg": 219.1376885749426,
+    "reading": 0.0,
+    "unit": "bar",
+    "arc_delta_deg": 0.0,
+    "ray_support": 1.0,
+    "needle_extent": 0.7679999999999999,
+    "selected_hough_line": [
+      225,
+      614,
+      402,
+      462
+    ],
+    "endpoint_snapped": true,
+    "warnings": [
+      "仅依据图像启发式评分；ray_support 不是正确概率。",
+      "角度在量程端点容差内，已吸附到端点，请复核原图。"
+    ],
+    "manual_value": 0.0,
+    "signed_error": 0.0,
+    "absolute_error": 0.0,
+    "relative_error_pct": null,
+    "full_scale_error_pct": 0.0,
+    "filename": "barometer_low.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_low.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_low.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\barometer_mid.png",
+    "status": "ok",
+    "calibration": {
+      "center_x": 0.5023148148148148,
+      "center_y": 0.49967233859851307,
+      "radius": 0.37595573158758444,
+      "start_angle": 216.7752721670316,
+      "end_angle": 315.7161599454704,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 4.0,
+      "unit": "bar"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "dark",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 92.0,
+    "original_size": [
+      2048,
+      1639
+    ],
+    "processed_size": [
+      1000,
+      800
+    ],
+    "auto_circle": false,
+    "angle_deg": 116.30878159031296,
+    "reading": 1.539367689130155,
+    "unit": "bar",
+    "arc_delta_deg": 100.46649057671864,
+    "ray_support": 1.0,
+    "needle_extent": 0.768,
+    "selected_hough_line": [
+      391,
+      188,
+      459,
+      336
+    ],
+    "endpoint_snapped": false,
+    "warnings": [
+      "仅依据图像启发式评分；ray_support 不是正确概率。"
+    ],
+    "manual_value": 1.6,
+    "signed_error": -0.060632310869844996,
+    "absolute_error": 0.060632310869844996,
+    "relative_error_pct": 3.7895194293653125,
+    "full_scale_error_pct": 1.515807771746125,
+    "filename": "barometer_mid.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_mid.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\barometer_mid.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\cargauge.png",
+    "status": "ok",
+    "calibration": {
+      "center_x": 0.48560436147820984,
+      "center_y": 0.5178082191780822,
+      "radius": 0.39014075487364575,
+      "start_angle": 208.81079374297306,
+      "end_angle": 334.03593146176996,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 200.0,
+      "unit": "km/h"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "light",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 134.0,
+    "original_size": [
+      794,
+      823
+    ],
+    "processed_size": [
+      794,
+      823
+    ],
+    "auto_circle": false,
+    "angle_deg": 33.73487190579288,
+    "reading": 149.14366907602047,
+    "unit": "km/h",
+    "arc_delta_deg": 175.07592183718018,
+    "ray_support": 0.6,
+    "needle_extent": 0.7772960893854748,
+    "selected_hough_line": [
+      432,
+      414,
+      563,
+      318
+    ],
+    "endpoint_snapped": false,
+    "warnings": [
+      "仅依据图像启发式评分；ray_support 不是正确概率。"
+    ],
+    "manual_value": 140.0,
+    "signed_error": 9.143669076020473,
+    "absolute_error": 9.143669076020473,
+    "relative_error_pct": 6.5311921971574805,
+    "full_scale_error_pct": 4.571834538010236,
+    "filename": "cargauge.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\cargauge.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\cargauge.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\gauge_nonlinear.png",
+    "status": "ok",
+    "calibration": {
+      "center_x": 0.4941418002902553,
+      "center_y": 0.6191780821917808,
+      "radius": 0.44610078726984964,
+      "start_angle": 135.25578303073928,
+      "end_angle": 46.95695322392697,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 1080.0,
+      "unit": "A"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "light",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 137.0,
+    "original_size": [
+      1161,
+      1200
+    ],
+    "processed_size": [
+      968,
+      1000
+    ],
+    "auto_circle": false,
+    "angle_deg": 87.65172778856865,
+    "reading": 582.2543715927908,
+    "unit": "A",
+    "arc_delta_deg": 47.60405524217063,
+    "ray_support": 0.8555555555555555,
+    "needle_extent": 0.7726480446927374,
+    "selected_hough_line": [
+      484,
+      510,
+      506,
+      275
+    ],
+    "endpoint_snapped": false,
+    "warnings": [
+      "仅依据图像启发式评分；ray_support 不是正确概率。"
+    ],
+    "manual_value": 140.0,
+    "signed_error": 442.2543715927908,
+    "absolute_error": 442.2543715927908,
+    "relative_error_pct": 315.8959797091363,
+    "full_scale_error_pct": 40.94947885118433,
+    "filename": "gauge_nonlinear.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_nonlinear.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_nonlinear.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\gauge_squad_red.png",
+    "status": "failed",
+    "calibration": {
+      "center_x": 0.4943589041095891,
+      "center_y": 0.5164383561643836,
+      "radius": 0.3855549964433311,
+      "start_angle": 214.939310204677,
+      "end_angle": 327.81736823279516,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 225.0,
+      "unit": "A"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "light",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 106.0,
+    "original_size": [
+      500,
+      489
+    ],
+    "processed_size": [
+      500,
+      489
+    ],
+    "auto_circle": false,
+    "error": "存在强度相近的多个指针方向，请人工复核",
+    "filename": "gauge_squad_red.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_squad_red.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\gauge_squad_red.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\pressuregauge_low.png",
+    "status": "failed",
+    "calibration": {
+      "center_x": 0.5191780821917809,
+      "center_y": 0.5109589041095891,
+      "radius": 0.3070602259503305,
+      "start_angle": 218.4474453291707,
+      "end_angle": 322.0542517333647,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 400.0,
+      "unit": "A"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "light",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 147.0,
+    "original_size": [
+      480,
+      480
+    ],
+    "processed_size": [
+      480,
+      480
+    ],
+    "auto_circle": false,
+    "error": "指针方向的前景支持不足，拒绝输出读数",
+    "filename": "pressuregauge_low.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\pressuregauge_low.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\pressuregauge_low.params.json"
+  },
+  {
+    "image": "experiments\\experiments_image\\image\\speedgauge.png",
+    "status": "ok",
+    "calibration": {
+      "center_x": 0.6180555555555556,
+      "center_y": 0.5400624067290735,
+      "radius": 0.4383848304119392,
+      "start_angle": 226.87787744728533,
+      "end_angle": 314.8700778201576,
+      "direction": "cw",
+      "min_value": 0.0,
+      "max_value": 8.0,
+      "unit": "km/h"
+    },
+    "parameters": {
+      "max_size": 1000,
+      "blur_kernel": 5,
+      "threshold_mode": "otsu",
+      "fixed_threshold": 110,
+      "polarity": "light",
+      "adaptive_block": 31,
+      "adaptive_c": 7.0,
+      "close_kernel": 3,
+      "open_kernel": 1,
+      "inner_ratio": 0.13,
+      "outer_ratio": 0.8,
+      "center_tolerance": 0.1,
+      "min_line_ratio": 0.24,
+      "max_gap_ratio": 0.06,
+      "min_ray_support": 0.45,
+      "endpoint_tolerance": 2.0
+    },
+    "otsu_or_fixed_threshold": 60.0,
+    "original_size": [
+      2048,
+      1365
+    ],
+    "processed_size": [
+      1000,
+      667
+    ],
+    "auto_circle": false,
+    "angle_deg": 118.94033639983141,
+    "reading": 3.1745425298955774,
+    "unit": "km/h",
+    "arc_delta_deg": 107.93754104745392,
+    "ray_support": 0.9944444444444445,
+    "needle_extent": 0.7681787709497208,
+    "selected_hough_line": [
+      494,
+      164,
+      576,
+      319
+    ],
+    "endpoint_snapped": false,
+    "warnings": [
+      "仅依据图像启发式评分；ray_support 不是正确概率。"
+    ],
+    "manual_value": 2.9,
+    "signed_error": 0.2745425298955775,
+    "absolute_error": 0.2745425298955775,
+    "relative_error_pct": 9.466983789502672,
+    "full_scale_error_pct": 3.4317816236947185,
+    "filename": "speedgauge.png",
+    "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\speedgauge.json",
+    "params_file": "experiments\\experiments_circle_comparison\\configuration\\speedgauge.params.json"
+  }
+]

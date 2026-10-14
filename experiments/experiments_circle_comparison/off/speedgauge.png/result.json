@@ -1,0 +1,67 @@
+{
+  "image": "experiments\\experiments_image\\image\\speedgauge.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.6180555555555556,
+    "center_y": 0.5400624067290735,
+    "radius": 0.4383848304119392,
+    "start_angle": 226.87787744728533,
+    "end_angle": 314.8700778201576,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 8.0,
+    "unit": "km/h"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "light",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 60.0,
+  "original_size": [
+    2048,
+    1365
+  ],
+  "processed_size": [
+    1000,
+    667
+  ],
+  "auto_circle": false,
+  "angle_deg": 118.94033639983141,
+  "reading": 3.1745425298955774,
+  "unit": "km/h",
+  "arc_delta_deg": 107.93754104745392,
+  "ray_support": 0.9944444444444445,
+  "needle_extent": 0.7681787709497208,
+  "selected_hough_line": [
+    494,
+    164,
+    576,
+    319
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ],
+  "manual_value": 2.9,
+  "signed_error": 0.2745425298955775,
+  "absolute_error": 0.2745425298955775,
+  "relative_error_pct": 9.466983789502672,
+  "full_scale_error_pct": 3.4317816236947185,
+  "filename": "speedgauge.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\speedgauge.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\speedgauge.params.json"
+}

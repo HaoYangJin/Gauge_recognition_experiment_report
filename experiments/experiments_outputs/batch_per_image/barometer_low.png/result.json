@@ -1,0 +1,63 @@
+{
+  "image": "experiments_image\\image\\barometer_low.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.49832026875699886,
+    "center_y": 0.5013698630136986,
+    "radius": 0.3886574415447109,
+    "start_angle": 218.6598082540901,
+    "end_angle": 315.9951119815908,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "unit": "bar"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 158.0,
+  "original_size": [
+    893,
+    890
+  ],
+  "processed_size": [
+    893,
+    890
+  ],
+  "auto_circle": false,
+  "angle_deg": 219.1376885749426,
+  "reading": 0.0,
+  "unit": "bar",
+  "arc_delta_deg": 0.0,
+  "ray_support": 1.0,
+  "needle_extent": 0.7679999999999999,
+  "selected_hough_line": [
+    225,
+    614,
+    402,
+    462
+  ],
+  "endpoint_snapped": true,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。",
+    "角度在量程端点容差内，已吸附到端点，请复核原图。"
+  ],
+  "filename": "barometer_low.png",
+  "calibration_file": "experiments_image\\calibration.json\\barometer_low.json",
+  "params_file": null
+}

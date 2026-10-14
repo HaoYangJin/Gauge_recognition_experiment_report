@@ -1,0 +1,11 @@
+﻿"filename","manual_value","unit","reference_source","off_status","off_reading","off_absolute_error","off_full_scale_error_pct","off_support","off_error","on_status","on_reading","on_absolute_error","on_full_scale_error_pct","on_support","on_error"
+"ammeter_low.png","7","mV","manual_value_from_gui_result_json","ok","7.980398731731383","0.9803987317313831","0.49019936586569157","1",,"failed",,,,,"检测圆偏离标定圆心过远，请人工复核"
+"barometer_broken.png","3.9","bar","user_provided_in_chat_unit_unconfirmed","failed",,,,,"未检测到足够长的直线；检查阈值、指针极性和 ROI","failed",,,,,"指针方向的前景支持不足，拒绝输出读数"
+"barometer_glass.png","7","psi","user_provided_in_chat_unit_unconfirmed","failed",,,,,"存在强度相近的多个指针方向，请人工复核","failed",,,,,"存在强度相近的多个指针方向，请人工复核"
+"barometer_low.png","0","bar","manual_value_from_gui_result_json","ok","0","0","0","1",,"ok","0","0","0","1",
+"barometer_mid.png","1.6","bar","manual_value_from_gui_result_json","ok","1.539367689130155","0.060632310869844996","1.515807771746125","1",,"ok","1.5289913613567545","0.07100863864324558","1.7752159660811395","0.9944444444444445",
+"cargauge.png","140","km/h","manual_value_from_gui_result_json","ok","149.14366907602047","9.143669076020473","4.571834538010236","0.6",,"ok","152.45219277772054","12.45219277772054","6.22609638886027","0.7777777777777778",
+"gauge_nonlinear.png","140","A","manual_value_from_gui_result_json","ok","582.2543715927908","442.2543715927908","40.94947885118433","0.8555555555555555",,"failed",,,,,"检测圆偏离标定圆心过远，请人工复核"
+"gauge_squad_red.png","50","A","user_provided_in_chat_unit_unconfirmed","failed",,,,,"存在强度相近的多个指针方向，请人工复核","failed",,,,,"存在强度相近的多个指针方向，请人工复核"
+"pressuregauge_low.png","35","A","user_provided_in_chat_unit_unconfirmed","failed",,,,,"指针方向的前景支持不足，拒绝输出读数","ok","31.64855545162848","3.3514445483715214","0.8378611370928802","0.9222222222222223",
+"speedgauge.png","2.9","km/h","manual_value_from_gui_result_json","ok","3.1745425298955774","0.2745425298955775","3.4317816236947185","0.9944444444444445",,"failed",,,,,"未找到合适的表盘圆；请使用四点手动标定"

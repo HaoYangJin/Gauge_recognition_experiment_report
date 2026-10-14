@@ -1,0 +1,64 @@
+{
+  "image": "C:\\Users\\JInhAoYang\\Desktop\\仪表识别实验\\experiments\\experiments_image\\image\\gauge_nonlinear.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.4941418002902553,
+    "center_y": 0.6191780821917808,
+    "radius": 0.44610078726984964,
+    "start_angle": 135.25578303073928,
+    "end_angle": 46.95695322392697,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 1080.0,
+    "unit": "A"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "light",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 137.0,
+  "original_size": [
+    1161,
+    1200
+  ],
+  "processed_size": [
+    968,
+    1000
+  ],
+  "auto_circle": false,
+  "angle_deg": 87.65172778856865,
+  "reading": 582.2543715927908,
+  "unit": "A",
+  "arc_delta_deg": 47.60405524217063,
+  "ray_support": 0.8555555555555555,
+  "needle_extent": 0.7726480446927374,
+  "selected_hough_line": [
+    484,
+    510,
+    506,
+    275
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。"
+  ],
+  "manual_value": 140.0,
+  "signed_error": 442.2543715927908,
+  "absolute_error": 442.2543715927908,
+  "relative_error_pct": 315.8959797091363,
+  "full_scale_error_pct": 40.94947885118433
+}

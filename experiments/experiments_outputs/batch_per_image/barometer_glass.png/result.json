@@ -1,0 +1,47 @@
+{
+  "image": "experiments_image\\image\\barometer_glass.png",
+  "status": "failed",
+  "calibration": {
+    "center_x": 0.49726027397260275,
+    "center_y": 0.5027397260273972,
+    "radius": 0.3403909754063879,
+    "start_angle": 230.3709946955357,
+    "end_angle": 309.7187593715549,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "unit": "psi"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "dark",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 152.0,
+  "original_size": [
+    480,
+    480
+  ],
+  "processed_size": [
+    480,
+    480
+  ],
+  "auto_circle": false,
+  "error": "存在强度相近的多个指针方向，请人工复核",
+  "filename": "barometer_glass.png",
+  "calibration_file": "experiments_image\\calibration.json\\barometer_glass.json",
+  "params_file": null
+}

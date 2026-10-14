@@ -1,0 +1,68 @@
+{
+  "image": "experiments\\experiments_image\\image\\cargauge.png",
+  "status": "ok",
+  "calibration": {
+    "center_x": 0.46775821714617444,
+    "center_y": 0.5125152105838966,
+    "radius": 0.5056927198126574,
+    "start_angle": 208.81079374297306,
+    "end_angle": 334.03593146176996,
+    "direction": "cw",
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "unit": "km/h"
+  },
+  "parameters": {
+    "max_size": 1000,
+    "blur_kernel": 5,
+    "threshold_mode": "otsu",
+    "fixed_threshold": 110,
+    "polarity": "light",
+    "adaptive_block": 31,
+    "adaptive_c": 7.0,
+    "close_kernel": 3,
+    "open_kernel": 1,
+    "inner_ratio": 0.13,
+    "outer_ratio": 0.8,
+    "center_tolerance": 0.1,
+    "min_line_ratio": 0.24,
+    "max_gap_ratio": 0.06,
+    "min_ray_support": 0.45,
+    "endpoint_tolerance": 2.0
+  },
+  "otsu_or_fixed_threshold": 134.0,
+  "original_size": [
+    794,
+    823
+  ],
+  "processed_size": [
+    794,
+    823
+  ],
+  "auto_circle": true,
+  "angle_deg": 29.85108092368922,
+  "reading": 152.45219277772054,
+  "unit": "km/h",
+  "arc_delta_deg": 178.95971281928385,
+  "ray_support": 0.7777777777777778,
+  "needle_extent": 0.6321340782122905,
+  "selected_hough_line": [
+    416,
+    395,
+    602,
+    292
+  ],
+  "endpoint_snapped": false,
+  "warnings": [
+    "仅依据图像启发式评分；ray_support 不是正确概率。",
+    "霍夫圆结果应人工复核；自动圆定位不识别刻度值或纠正相机旋转。"
+  ],
+  "manual_value": 140.0,
+  "signed_error": 12.45219277772054,
+  "absolute_error": 12.45219277772054,
+  "relative_error_pct": 8.89442341265753,
+  "full_scale_error_pct": 6.22609638886027,
+  "filename": "cargauge.png",
+  "calibration_file": "experiments\\experiments_circle_comparison\\configuration\\cargauge.json",
+  "params_file": "experiments\\experiments_circle_comparison\\configuration\\cargauge.params.json"
+}
