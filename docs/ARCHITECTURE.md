@@ -33,6 +33,8 @@ flowchart TD
 
 ## 测试和维护
 
-`algorithm_verify.BoundaryTests` 检查映射与图像识别边界；`test_batch_sequence_match` 检查匹配、异常隔离和文件保护；`test_heatmap` 检查热图峰值。`algorithm_verify.py` 主程序另外执行十张合成图端到端验证。GUI 使用工作线程计算、主线程更新 Tk 控件。
+`algorithm_verify.BoundaryTests` 检查映射与图像识别边界；`test_batch_sequence_match` 检查匹配、异常隔离和文件保护；`test_heatmap` 检查热图峰值；`test_verification_output` 检查验证目录隔离和真实 CLI 生成。`algorithm_verify.py` 主程序另外执行十张合成图端到端验证，默认在 `outputs/verification/run-*` 中独立生成本轮输入、输出和摘要，保留归档。GUI 使用工作线程计算、主线程更新 Tk 控件。
+
+完整测试命令与生成文件边界见 [贡献与验证](../CONTRIBUTING.md)，已有实验材料见 [实验资料索引](EXPERIMENTS.md)。
 
 保留根目录入口以兼容现有运行习惯。新增算法应进入 `core.py` 或拆分明确模块，并保持 CLI/GUI 共用；真实实验结果不能被合成验证替代。

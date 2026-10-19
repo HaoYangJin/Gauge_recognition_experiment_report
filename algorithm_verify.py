@@ -1,4 +1,5 @@
 """复现合成验证及关键失败边界。只用标准库 unittest。"""
+import argparse
 import json
 import math
 import platform
@@ -144,9 +145,34 @@ class BoundaryTests(unittest.TestCase):
             self.assertIn("error", saved)
 
 
-def main():
-    # 完整验证会重新生成演示输入和输出；只跑 BoundaryTests 则不执行此流程。
-    root = Path(__file__).resolve().parent
+def verification_directory(destination=None):
+    """验证写入独立新目录，避免覆盖源代码和已归档实验。"""
+    source = Path(__file__).resolve().parent
+    target = (Path(destination) if destination is not None
+              else source / "outputs" / "verification").resolve()
+    protected = [source / name for name in ("demo", "experiments", ".docs", ".git")]
+    if target == source or target in source.parents or any(
+            target == p.resolve() or target.is_relative_to(p.resolve())
+            or p.resolve().is_relative_to(target) for p in protected):
+        raise ValueError("验证输出不能位于项目根目录、其祖先或实验归档/Git 目录中")
+    if destination is None:
+        target.mkdir(parents=True, exist_ok=True)
+        return Path(tempfile.mkdtemp(prefix="run-", dir=target))
+    # 新目录不包含可将 demo/summary 等子路径重定向到原始数据的符号链接。
+    if target.exists() and (not target.is_dir() or any(target.iterdir())):
+        raise ValueError("--out 必须是不存在或为空的目录；请为每次验证使用新目录")
+    target.mkdir(parents=True, exist_ok=True)
+    return target
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--out", type=Path, help="新的或空的验证目录；默认在 outputs/verification 下创建独立目录")
+    args = parser.parse_args(argv)
+    try:
+        root = verification_directory(args.out)
+    except (OSError, ValueError) as exc:
+        parser.error(str(exc))
     demos = make_demo(root / "demo" / "demo_image")
     results = batch_read(demos / "images", Calibration(), root / "demo" / "demo_outputs",
                          references=demos / "references.csv")
@@ -156,6 +182,7 @@ def main():
     outcome = unittest.TextTestRunner(verbosity=2).run(suite)
     # 环境版本是本次验证的快照，不能当作之后任意时刻的当前安装状态。
     summary = {
+        "output_directory": str(root),
         "evidence_type": "synthetic_only_not_real_photo_accuracy",
         "seed": 20261012, "demo_count": len(results), "successful": len(successes),
         "mean_absolute_error": float(np.mean([r["absolute_error"] for r in successes])) if successes else None,
